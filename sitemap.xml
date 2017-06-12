@@ -3,8 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://romanrodriguez.github.io/post/using_hugo_the_second_day/</loc>
+    <lastmod>2017-06-10T07:10:34-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://romanrodriguez.github.io/post/welcome/</loc>
     <lastmod>2017-06-05T19:40:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://romanrodriguez.github.io/tags/blogging/</loc>
+    <lastmod>2017-06-10T07:10:34-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -13,19 +24,44 @@
   </url>
   
   <url>
+    <loc>https://romanrodriguez.github.io/tags/cli/</loc>
+    <lastmod>2017-06-10T07:10:34-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://romanrodriguez.github.io/tags/hugo/</loc>
+    <lastmod>2017-06-10T07:10:34-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://romanrodriguez.github.io/tags/on-the-road/</loc>
+    <lastmod>2017-06-10T07:10:34-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://romanrodriguez.github.io/post/</loc>
-    <lastmod>2017-06-05T19:40:57-05:00</lastmod>
+    <lastmod>2017-06-10T07:10:34-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://romanrodriguez.github.io/</loc>
-    <lastmod>2017-06-05T19:40:57-05:00</lastmod>
+    <lastmod>2017-06-10T07:10:34-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://romanrodriguez.github.io/tags/</loc>
+    <lastmod>2017-06-10T07:10:34-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://romanrodriguez.github.io/categories/tutorial/</loc>
+    <lastmod>2017-06-10T07:10:34-05:00</lastmod>
     <priority>0</priority>
   </url>
   

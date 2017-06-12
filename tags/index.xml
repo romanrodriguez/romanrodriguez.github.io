@@ -6,9 +6,46 @@
     <description>Recent content in Tags on Roman Rodriguez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 10 Jun 2017 07:10:34 -0500</lastBuildDate>
     
 	<atom:link href="https://romanrodriguez.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blogging</title>
+      <link>https://romanrodriguez.github.io/tags/blogging/</link>
+      <pubDate>Sat, 10 Jun 2017 07:10:34 -0500</pubDate>
+      
+      <guid>https://romanrodriguez.github.io/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cli</title>
+      <link>https://romanrodriguez.github.io/tags/cli/</link>
+      <pubDate>Sat, 10 Jun 2017 07:10:34 -0500</pubDate>
+      
+      <guid>https://romanrodriguez.github.io/tags/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://romanrodriguez.github.io/tags/hugo/</link>
+      <pubDate>Sat, 10 Jun 2017 07:10:34 -0500</pubDate>
+      
+      <guid>https://romanrodriguez.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On The Road</title>
+      <link>https://romanrodriguez.github.io/tags/on-the-road/</link>
+      <pubDate>Sat, 10 Jun 2017 07:10:34 -0500</pubDate>
+      
+      <guid>https://romanrodriguez.github.io/tags/on-the-road/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

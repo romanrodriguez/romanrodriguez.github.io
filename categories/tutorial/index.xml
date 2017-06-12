@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Roman Rodriguez</title>
-    <link>https://romanrodriguez.github.io/post/</link>
-    <description>Recent content in Posts on Roman Rodriguez</description>
+    <title>Tutorial on Roman Rodriguez</title>
+    <link>https://romanrodriguez.github.io/categories/tutorial/</link>
+    <description>Recent content in Tutorial on Roman Rodriguez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Jun 2017 07:10:34 -0500</lastBuildDate>
     
-	<atom:link href="https://romanrodriguez.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://romanrodriguez.github.io/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>https://romanrodriguez.github.io/post/using_hugo_the_second_day/</guid>
       <description>I am in the country side this weekend. Internet access has been non-existent, except for a few messages that managed to get through. It seems like a good situation to test my new blogging workflow and make sure it works for me in different situations. You never know where inspiration will find you.
 Last week I decided to experiment with building my blog with Hugo. The first day when you install Hugo on your machine, you are likely to follow the Quickstart Guide in the Getting Started Section.</description>
-    </item>
-    
-    <item>
-      <title>Trying out Hugo.io</title>
-      <link>https://romanrodriguez.github.io/post/welcome/</link>
-      <pubDate>Mon, 05 Jun 2017 19:40:57 -0500</pubDate>
-      
-      <guid>https://romanrodriguez.github.io/post/welcome/</guid>
-      <description>As part of my hundred days of code experiment, I thought it would be a good idea to push forward some side projects I&amp;rsquo;ve had in mind. This blog is intented to be a developer blog, but I&amp;rsquo;d like to share tidbits of my life in it, too.
-I chose Hugo.io as it seems to be popular with the developer crowd this days and I wanted a fresh challenge. It is an interesting and well documented piece of software, and thus, I am having fun!</description>
     </item>
     
   </channel>

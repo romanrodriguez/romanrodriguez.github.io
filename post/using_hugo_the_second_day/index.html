@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <title>Using Hugo, the second day</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <meta name="generator" content="Hugo 0.21" />
+    
+    
+    
+      <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
+    
+    
+    <link rel="stylesheet" href="https://romanrodriguez.github.io/css/plain-blog.css">
+</head>
+<body>
+<div class="pure-g">
+  <div class="pure-u-1" id="header">
+    <a href="https://romanrodriguez.github.io/">Roman Rodriguez</a>
+    
+    
+  </div>
+</div>
+<div class="pure-g">
+  <div class="pure-u-1-24 pure-u-lg-1-12 pure-u-xl-1-5"></div>
+  <div class="pure-u-11-12 pure-u-lg-5-6 pure-u-xl-3-5" id="main">
+  	<main>
+  	  <header>
+  	    <h1>Using Hugo, the second day</h1>
+        <time datetime="2017-06-10T07:10:34-05:00" class="post-list timeago">2017-06-10</time>
+        
+
+  
+    <a class="tag" href="https://romanrodriguez.github.io/tags/cli">Tag: cli</a>
+  
+    <a class="tag" href="https://romanrodriguez.github.io/tags/hugo">Tag: hugo</a>
+  
+    <a class="tag" href="https://romanrodriguez.github.io/tags/blogging">Tag: blogging</a>
+  
+    <a class="tag" href="https://romanrodriguez.github.io/tags/on-the-road">Tag: on-the-road</a>
+  
+
+
+
+  
+    <a class="tag" href="https://romanrodriguez.github.io/categories/tutorial">Category: Tutorial</a>
+  
+
+
+
+
+
+  	  </header>
+
+  	  
+
+
+      
+
+  	  
+        <p>I am in the country side this weekend. Internet access has been non-existent, except for a few messages that managed to get through. It seems like a good situation to test my new blogging workflow and make sure it works for me in different situations. You never know where inspiration will find you.</p>
+
+<p>Last week I decided to experiment with building my blog with <a href="https://gohugo.io/">Hugo</a>. The first day when you install <a href="https://gohugo.io/">Hugo</a> on your machine, you are likely to follow the <a href="https://gohugo.io/overview/quickstart/">Quickstart Guide</a> in the Getting Started Section. It is pretty good and it builds a solid base in which to stand on.</p>
+
+<p>Today, with limited time to work on this, without being able to browse <a href="https://gohugo.io/overview/introduction/">Hugo.io&rsquo;s documentation</a>, and not wanting to spend that time reading the CLI help section, I am going to write how to come back the second day and write a post without much fus.</p>
+
+<p>Thankfully, I made some notes about my first encounter on a Quiver app notebook that will come handy.</p>
+
+<p>First, we open our Terminal window and head over to our site directory.</p>
+
+<p><code>cd SITE_NAME</code></p>
+
+<p>Once there in its main directory, we run the command that starts a new draft post for us.</p>
+
+<p><code>hugo new post/NAME_OF_YOUR_POST.md</code></p>
+
+<p>This new draft post is generated in the subdirectory content and nowhere else. You then need to edit it there to include content, tags, categories and/ or whatever else your theme supports. I used nano but you can open it on your text editor if you like that more.</p>
+
+<p>To see the draft in action, run:</p>
+
+<p><code>hugo server --theme=NAME_OF_YOUR_THEME --buildDrafts</code></p>
+
+<p>Once you are ready to generate your public site with this new post, you can either edit the header section of your post with:</p>
+
+<p><em>draft = false</em></p>
+
+<p>OR you can run the following command back in the project&rsquo;s home directory before generating the blog:</p>
+
+<p><code>hugo undraft content/post/NAME_OF_YOUR_POST.md</code></p>
+
+<p>After doing one or the other, we are ready to build our site. The output will go in our public directory.
+Run the following:</p>
+
+<p><code>hugo --theme=NAME_OF_YOUR_THEME</code></p>
+
+<p>And we are done. Now we just need an internet connection to send this to our hosting solution. :)
+In my case, after following the quickstart guide, I decided to host it on GitHub for now. It works great.</p>
+
+      
+
+    </main>
+  </div>
+  <div class="pure-u-1-24 pure-u-lg-1-12 pure-u-xl-1-5"></div>
+</div>
+<div class="pure-g" id="foot">
+  <div class="pure-u-1">
+    
+    
+      
+
+
+    
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/2.0.4/timeago.min.js" integrity="sha256-34otvl+f6DWlliQUlAwT5hvizEJc8lPlNpW9T23pfGA=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+  new timeago().render(document.querySelectorAll('.timeago'));
+</script>
+
+</body>
+</html>
